@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(210, 87, 210);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+.menu>li>a{
+    padding: 1rem;
+    display: block;
+}
+
+.menu>li>a:hover{
+    background: rgb(236, 172, 236);
+    color: white;
+    border-radius: 0 0 10px 0;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+header .find{
+    /* background-color: aqua; */
+    width: 70%;
+    /* text-align: center; */
+}
+
+.find{
+    text-align: center;
+    justify-content: center;
+}
+
+.find input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.find button{
+    width: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+header h1{
+    color: powderblue;
+    animation: 3s name infinite;
+    padding-left: 1rem;
+    text-shadow: 4px 3px coral;
+    font-size: 250%;
+}
+
+@keyframes name{
+    from{
+        color: powderblue;
+    }
+    to{
+        color: rgb(9, 83, 105);
+    }
+}
+
+/* LEFT  */
+.left{
+    margin-top: 5px;
+    background-color: rgb(210, 87, 210);
+    background: linear-gradient(rgb(210, 87, 210), white);
+    width: 24.5%;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    /* position: sticky;
+    left: 0;
+    top: 54px; */
+    /* border-right: 5px solid white; */
+    height: 100%;
+}
+
+.left>ul>li{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.left>ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.left>ul>li:hover{
+    background-color: rgb(236, 172, 236);
+    color: white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    /* display: block; */
+}
+
+.left ul{
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Chỉnh mục yêu thích va thư viện*/
+.left .love{
+    
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+
+    width: 100%;
+}
+
+
+
+
+
+.left .love img{
+    width: 15%;
+    align-content: center;
+    padding-left: 3px;
+}
+
+.song>div{
+    padding: 8px;
+    text-align: left;
+}
+
+.song>i{
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.song>h3{
+    margin-left: 8px;
+}
+
+.song>i:hover{
+    color: saddlebrown;
+}
+
+
+
+.left .song{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+    margin: 10px 10px 5px 10px;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid rgba(135, 128, 128, 0.473);
+
+
+    padding-right: 10px; /* Đảm bảo khoảng cách cho thanh cuộn */
+}
+
+.love { 
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    max-height: 480px;  /* Giới hạn chiều cao, có thể điều chỉnh tùy theo ý muốn */
+    overflow-y: auto;   /* Thêm thanh cuộn khi nội dung vượt quá chiều cao */
+    padding-right: 10px; /* Dành khoảng trống cho thanh cuộn */
+    box-sizing: border-box;
+ }
+
+
+
+
+
+
+.love .song:hover{
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 6px;
+}
+
+
+/* ALBUM */
+.right{
+    /* margin-left: 1rem; */
+    margin-top: 5px;
+    background-color: rgb(236, 172, 236);
+    width: 75%;
+    margin-left: auto;
+    border-radius: 10px ;
+    /* float: right; */
+}
+
+/* .tick>p{
+    color: rgba(255, 255, 255, 0);
+} */
+
+.flex-1{
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.flex-1>h1{
+    display: flex;
+    align-items: center;
+}
+
+.right .next{
+    margin-right: 10px;
+}
+
+
+.album, .singer, .hot-trend{
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.album img, .singer img, .hot-trend img{
+    width: 100%;
+}
+
+.album>div, .singer>div, .hot-trend>div{
+    background: linear-gradient(white, black);
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.right>h1:first-child{
+    margin-top: 5px;
+}
+
+/* Hiệu ứng phát sáng cho hình ảnh khi rê chuột */
+
+
+/* .right h1{
+    margin-left: 1rem;
+    margin-top: 2rem;
+} */
+
+.flex-1{
+    padding-top: 2rem;
+    padding-bottom: 5px;
+    padding-left: 1.5rem;
+}
+
+
+
+.album:hover, .singer:hover, .hot-trend:hover {
+    background-color: rgba(184, 145, 73, 0.7); /* Màu nền khi hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Hiệu ứng đổ bóng */
+    transform: scale(1.1); /* Tăng kích thước nhẹ khi hover */
+    transition: 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+
+
+
+footer{
+    z-index: 2;
+    /* background-color: rgb(210, 87, 210); */
+    background: linear-gradient(white, rgb(210, 87, 210));
+    /* margin-top: 5px; */
+    border-top: 5px solid white;
+    /* border-radius: 10px; */
+    position: sticky;
+    height: 120px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer>div{
+    
+} */
+
+.music img{
+    /* margin-left: 25px; */
+    height: 100px;
+    border-radius: 50%;
+    /* padding: 20px; */
+    animation: imgfoot 5s infinite linear;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.5); 
+    /* Ánh sáng mặc định */
+    transition: box-shadow 0.5s ease; /*Hiệu ứng mượt mà*/
+}
+
+.music>div{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+@keyframes imgfoot {
+    from{
+        transform: rotate(0deg);
+        box-shadow: 0 0 30px 30px rgba(0, 255, 255, 0.5);
+    }
+    to{
+        transform: rotate(360deg);
+        box-shadow: 0 0 20px 20px rgba(0, 255, 255, 1);
+    }
+}
+
+.music-audio{
+    box-sizing: border-box;
+    width: 1000px;
+    align-self: center;
+    margin-left: 15px;
+}
+
+/* audio{
+    color: aquamarine;
+} */
+
+
+.icon i{
+    width: 100px;
+    height: 100px;
+    /* color: red; */
+    /* align-items: center; */
+    /* justify-items: space-between; */
+}

@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/css/trang2.css"/> -->
+    <link href="../css/trang3.css" rel="stylesheet" />
+    <link href="/trang2.html" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<p id="trangchu"></p>
+
+<body>
+    <header>
+        <ul class="menu flex"> 
+            <h1>Greenlight</h1>
+
+            <li class="find">
+                <input type="text" placeholder="Tìm tên bài hát...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>      
+            </li>
+
+            <li class="user"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+
+    <section class="left" >
+        <ul class="home">
+            <li>
+                <a href="#trangchu"> <i class="fa-solid fa-house"></i> </a>
+                <a href="#trangchu">Trang chủ</a>
+            </li>
+            <li>
+                <a href="#yeuthich"> <i class="fa-solid fa-heart"></i> </a>
+                <a href="#yeuthich">Yêu thích</a>
+                
+            </li>
+            <li>
+                <a href="#thuvien"> <i class="fa-solid fa-list"></i> </a>
+                <a href="#thuvien">Thư viện</a>
+            </li>
+        </ul>
+    </section>
+
+    
+    <!-- Dương Domic -->
+    <section class="right">
+        <div class="duongdomic">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/duongdomic.jpg" alt="Dương Domic"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Dương Domic</h2>
+                        <p>5 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/duong_domic/album_img.png" alt="Dương Domic"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/duong_domic/yeu_em_2_ngay.png" alt="Dương Domic">
+                    <div>
+                        <h3>Yêu Em 2 Ngày</h3>
+                        <span>Dương Domic</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/duong_domic/yêu em 2 ngày.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/duong_domic/a_den_aw.jpg" alt="Dương Domic">
+                    <div>
+                        <h3>A Đến Ă</h3>
+                        <span>Dương Domic</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/duong_domic/a đến ă.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/duong_domic/la_em, chinh_em.png" alt="Dương Domic">
+                    <div>
+                        <h3>Là Em, Chính Em</h3>
+                        <span>Dương Domic</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/duong_domic/là em, chính em.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/duong_domic/nhung_cau_noi_anh_tung_cho.png" alt="Dương Domic">
+                    <div>
+                        <h3>Những Câu Nói Anh Từng Chờ</h3>
+                        <span>Dương Domic</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/duong_domic/những câu nói anh từng chờ.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/duong_domic/bao_loi_con_chua_noi.png" alt="Dương Domic">
+                    <div>
+                        <h3>Bao Lời Con Chưa Nói</h3>
+                        <span>Dương Domic</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/duong_domic/bao lời con chưa nói.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- Sơn Tùng M-TP -->
+    <section class="right">
+        <div class="sontung">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/sontung.webp" alt="Sơn Tùng M-TP"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Sơn Tùng M-TP</h2>
+                        <p>8 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/sontung_mtp/album_img.jpg" alt="Sơn Tùng M-TP"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/sontung_mtp/dung_lam_trai_tim_anh_dau.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Đừng Làm Trái Tim Anh Đau</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/đừng làm trái tim anh đau.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/sontung_mtp/chung_ta_cua_hien_tai.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Chúng Ta Của Hiện Tại</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/chúng ta của hiện tại.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/sontung_mtp/hay_trao_cho_anh.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Hãy Trao Cho Anh</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/hãy trao cho anh.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/sontung_mtp/noi_nay_co_anh.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Nơi Này Có Anh</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/nơi này có anh.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/sontung_mtp/co_chac_yeu_la_day.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Có Chắc Yêu Là Đây</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/có chắc yêu là đây.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>06</h3>
+                    <img src="/thumbnail/sontung_mtp/muon_roi_ma_sao_con.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Muộn Rồi Mà Sao Còn</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/muộn rồi mà sao còn.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>07</h3>
+                    <img src="/thumbnail/sontung_mtp/making_my_way.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Making My Way</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/making my way.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>08</h3>
+                    <img src="/thumbnail/sontung_mtp/chung_ta_cua_tuong_lai.jpg" alt="Sơn Tùng M-TP">
+                    <div>
+                        <h3>Chúng Ta Của Tương Lai</h3>
+                        <span>Sơn Tùng M-TP</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/sontung_mtp/chúng ta của tương lai.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hiếu Thứ Hai -->
+    <section class="right">
+        <div class="hieuthu2">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/hieuthu2.jpg" alt="Hiếu Thứ Hai"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>HIEUTHUHAI</h2>
+                        <p>8 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/hieuthu2/album_img.jpg" alt="Hiếu Thứ Hai"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/hieuthu2/love_sand.jpg" alt="Hếu Thứ Hai">
+                    <div>
+                        <h3>Love Sand</h3>
+                        <span>Anh trai Say Hi</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/love sand.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/hieuthu2/exit_sign.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Exit Sign</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/exit sign.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/hieuthu2/nghe_nhu_tinh_yeu.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Nghe Như Tình Yêu</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/nghe như tình yêu.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/hieuthu2/khong_the_say.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Không Thể Say</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/không thể say.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/hieuthu2/ve_tinh.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Vệ Tinh</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/vệ tinh.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>06</h3>
+                    <img src="/thumbnail/hieuthu2/bat_nhac_len.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Bật Nhạc Lên</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/bật nhạc lên.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>07</h3>
+                    <img src="/thumbnail/hieuthu2/ngu_mot_minh.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Ngủ Một Mình</h3>
+                        <span>HIEUTHUHAI</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/ngủ một mình.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>08</h3>
+                    <img src="/thumbnail/hieuthu2/hen_gap_em_duoi_anh_trang.jpg" alt="Hiếu Thứ Hai">
+                    <div>
+                        <h3>Hẹn Gặp Em Dưới Ánh Trăng</h3>
+                        <span>HURYKND, HIEUTHUHAI, MANBO</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/hieuthu2/hẹn gặp em dưới ánh trăng.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Captain -->
+    <section class="right">
+        <div class="captain">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/cap.jpg" alt="Captain"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Captain</h2>
+                        <p>6 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/captain/album_img.jpg" alt="Captain"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/captain/baby_goi_cho_anh.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>Baby Gọi Cho Anh</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/baby gọi cho anh.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/captain/rolling_down.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>Rolling Down</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/rolling down.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/captain/chua.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>Chừa</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/chừa.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/captain/you.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>You</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/you.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/captain/quen_dan_quen.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>Quên Dần Quên</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/quên dần quên.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>06</h3>
+                    <img src="/thumbnail/captain/mong_em_se_co_quen.jpg" alt="Captain">
+                    <div>
+                        <h3>Captain</h3>
+                        <span>Mong Em Sẽ Cố Quên</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/captain/mong em sẽ cố quên.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Hải Đăng Doo -->
+    <section class="right">
+        <div class="haidangdoo">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/doo.png" alt="Hải Đăng Doo"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Hải Đăng Doo</h2>
+                        <p>6 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/haidangdoo/album_img.jpg" alt="Hải Đăng Doo"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/haidangdoo/eyes_on_you.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Eyes On You</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/eyes on you.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/haidangdoo/chuyen_chung_ta_sau_nay.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Chuyện Chúng Ta Sau Này</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/chuyện chúng ta sau này.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/haidangdoo/con_hon_cha_la_nha_co_phuc.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Con Hơn Cha Là Nhà Có Phúc</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/con hơn cha là nhà có phúc.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/haidangdoo/doi_moi_ngay_dai.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Đôi Môi Ngây Dại</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/đôi môi ngây dại.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/haidangdoo/the_la_chet_roi.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Thế Là Chết Rồi</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/thế là chết rồi.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>06</h3>
+                    <img src="/thumbnail/haidangdoo/minh_thay_ket_nhau_la_yeu.jpg" alt="Hải Đăng Doo">
+                    <div>
+                        <h3>Hải Đăng Doo</h3>
+                        <span>Mình Thấy Kết Nhau Là Yêu</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/haidangdoo/mình thấy kết nhau là yêuuu.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Rhyder -->
+    <section class="right">
+        <div class="rhyder">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/rhyder.jpg" alt="Rhyder"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Rhyder</h2>
+                        <p>5 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/rhyder/album_img.jpg" alt="Rhyder"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/rhyder/chiu_cach_minh_noi_thua.jpg" alt="Rhyder">
+                    <div>
+                        <h3>Rhyder</h3>
+                        <span>Chịu Cách Mình Nói Thua</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/rhyder/chịu cách mình nói thua.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/rhyder/nguoi_co_nho_anh_khong.jpg" alt="Rhyder">
+                    <div>
+                        <h3>Rhyder</h3>
+                        <span>Người Có Nhớ Anh Không?</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/rhyder/người có nhớ anh không.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/rhyder/mua_nang_ha.jpg" alt="Rhyder">
+                    <div>
+                        <h3>Rhyder</h3>
+                        <span>Mưa Nắng Hạ</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/rhyder/mưa nắng hạ.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/rhyder/em_dang_lam_gi_day.jpg" alt="Rhyder">
+                    <div>
+                        <h3>Rhyder</h3>
+                        <span>Em Đang Làm Gì Đấy?</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/rhyder/em đang làm gì đấy.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/rhyder/chot_tinh_giac.jpg" alt="Rhyder">
+                    <div>
+                        <h3>Rhyder</h3>
+                        <span>Chợt Tỉnh Giấc</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/rhyder/chợt tỉnh giấc.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Tlinh -->
+    <section class="right">
+        <div class="tlinh">
+            <!-- ALBUM -->
+            <div class="introduction">
+                <h1>Album</h1>
+                <div class="album flex">
+                    <div class="item-left">
+                        <img src="/img/tlinh.jpg" alt="Tlinh"/>
+                    </div>
+                    <div class="item-center"> 
+                        <i class="fa-solid fa-circle-play fa-2x"></i> 
+                        <!-- fa-2x: kích thước icon lớn gấp 2 lần so với mặc định -->
+                    </div>
+                    <div class="item-right-center">
+                        <h2>Tlinh</h2>
+                        <p>8 bài hát</p>
+                    </div>
+                    <div class="item-right">
+                        <img src="/thumbnail/tlinh/album_img.jpg" alt="Tlinh"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SONGs -->
+            <div class="songs">
+                <h3 class="title">Playlist</h3>
+                <div class="song">
+                    <h3>01</h3>
+                    <img src="/thumbnail/tlinh/nu_sieu_anh_hung.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Nữ Siêu Anh Hùng</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/nữ siêu anh hùng.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>02</h3>
+                    <img src="/thumbnail/tlinh/gai_doc_than.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Gái Độc Thân</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/gái độc thân.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>03</h3>
+                    <img src="/thumbnail/tlinh/neu_luc_do.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Nếu Lúc Đó</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/nếu lúc đó.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>04</h3>
+                    <img src="/thumbnail/tlinh/nguoi_dien.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Người Điên</span>
+                    </div>
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/người điên.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>05</h3>
+                    <img src="/thumbnail/tlinh/tinh_yeu_nghia_la_gi.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Tình Yêu Có Nghĩa Là Gì?</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/tình yêu có nghĩa là gì.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>06</h3>
+                    <img src="/thumbnail/tlinh/kho_bau_danh_roi.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Kho Báu Đánh Rơi</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/kho báu đánh rơi.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>07</h3>
+                    <img src="/thumbnail/tlinh/nhung_dom_sang.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Những Đốm Sáng</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/những đốm sáng.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="song">
+                    <h3>08</h3>
+                    <img src="/thumbnail/tlinh/lam_lanh_chua_tinh.jpg" alt="Tlinh">
+                    <div>
+                        <h3>Tlinh</h3>
+                        <span>Làm Lành Chữa Tình</span>
+                    </div>
+
+                    <div class="item-music">
+                        <!-- <i class="fa-solid fa-circle-play fa-2x"></i> -->
+                        <div class="icon flex">
+                            <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                            <i class="fa-solid fa-backward-fast fa-lg"></i>
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+                            <i class="fa-solid fa-forward-fast fa-lg"></i>
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <input type="range" class="progress-bar" min="0" max="100" value="0">
+                        <input type="range" class="volume-control" min="0" max="1" step="0.01" value="1">
+                            <i class="fa-solid fa-volume-high"></i>
+                        <audio class="audio">
+                            <source src="/audio/tlinh/làm lành chữa tình.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="time-display">
+                            <span class="current-time">00:00</span> 
+                            <span class="total-time">00:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../java/trang3.js"></script>
+    
+</body>
+</html>

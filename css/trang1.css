@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* background: linear-gradient(white, rgb(210,87,210)); */
+    background-image: url(/img/bg.png);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.sign-in{
+    padding: 20px;
+    border: 1px solid white;
+    width: 300px;
+    /* background: linear-gradient(white, rgb(210, 87, 210)); */
+    /* background-color: #ADEFD1FF; */
+    background-color: lightblue;
+    color: #00203FFF;
+    border-radius: 10px;
+}
+
+.username input, .password input{
+    width: 92%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.forget-password>a{
+    text-decoration: none;
+}
+
+.forget-password, .sign-up {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.sign-up{
+    clear: right;
+}
+
+.sign-up>a{
+    text-decoration: none;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    color: lightseagreen;
+    border-radius: 50%;
+}
+
+.sign-up>a:hover{
+    background-color: lightseagreen;
+    color:#00203FFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.forget-password>a:hover{
+    background-color: lightseagreen;
+    color:#00203FFF;
+    border-radius: 10px;
+    padding: 5px;
+}

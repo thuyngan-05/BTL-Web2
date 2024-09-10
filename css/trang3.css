@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.flex{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(210, 87, 210);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+.menu>li>a{
+    padding: 1rem;
+    display: block;
+}
+
+.menu>li>a:hover{
+    background: rgb(236, 172, 236);
+    color: white;
+    border-radius: 0 0 10px 0;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+header .find{
+    /* background-color: aqua; */
+    width: 70%;
+    /* text-align: center; */
+}
+
+.find{
+    text-align: center;
+    justify-content: center;
+}
+
+.find input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.find button{
+    width: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+header h1{
+    color: powderblue;
+    animation: 3s name infinite;
+    padding-left: 1rem;
+    text-shadow: 4px 3px coral;
+    font-size: 250%;
+}
+
+@keyframes name{
+    from{
+        color: powderblue;
+    }
+    to{
+        color: rgb(9, 83, 105);
+    }
+}
+
+/* LEFT  */
+.left{
+    margin-top: 5px;
+    background-color: rgb(210, 87, 210);
+    background: linear-gradient(rgb(210, 87, 210), white);
+    width: 24.5%;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    /* position: sticky;
+    left: 0;
+    top: 54px; */
+    /* border-right: 5px solid white; */
+    height: 100%;
+}
+
+.left>ul>li{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.left>ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.left>ul>li:hover{
+    background-color: rgb(236, 172, 236);
+    color: white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    /* display: block; */
+}
+
+.left ul{
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Chỉnh mục yêu thích va thư viện*/
+.left .love{
+    width: 100%;
+}
+
+
+.right{
+    /* margin-left: 1rem; */
+    margin-top: 5px;
+    background-color: rgb(236, 172, 236);
+    width: 75%;
+    margin-left: auto;
+    border-radius: 10px ;
+    /* float: right; */
+}
+
+
+/* ALBUM */
+
+.album img{
+    border-radius: 10px;
+}
+
+.album{
+    border-bottom: 2px solid white;
+    /* border-radius: 0 0 10px 10px; */
+}
+
+.right h1{
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+.album h2, p{
+    margin-left: 10px;
+}
+
+.album h2{
+    margin-bottom: 1rem;
+}
+
+.songs{
+    margin-left: 1.5rem;
+}
+
+div.item-left{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 1.5rem 1.5rem;
+    /* padding: 1rem 1rem;*/
+} 
+
+div.item-left img{
+    width: 100%;
+}
+
+div.item-center{
+    width: 5%;
+    padding: 5px;
+    box-sizing: border-box;
+    /* margin-left: 10px; */
+}
+
+div.item-center:hover{
+    color: blue;
+}
+
+div.item-right-center{
+    /* width: 10%; */
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+div.item-right{
+    /* width: 60.5%; */
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    /* padding: 10px 10px;
+    margin-left: 2rem;
+    margin-top: 2rem; */
+    padding: 1.5rem 1.5rem;
+}
+
+/* div.item-right img{
+    width: 100%;
+} */
+
+.item-left img, .item-right img{
+    height: 100%;
+    width: 100%;
+}
+
+/* SONG */
+
+.title{
+    padding: 1rem;
+}
+
+.song>div{
+    padding: 8px;
+    text-align: left;
+}
+
+.song>i{
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+/* .song>h3{
+    margin-left: 8px;
+} */
+
+.song>i:hover{
+    color: saddlebrown;
+}
+
+.song img{
+    width: 15%;
+    align-content: center;
+    padding: 10px;
+    /* padding-left: 3px; */
+    /* margin-bottom: 8px; */
+}
+
+.song{
+    align-items: center;
+    display: flex;
+    /* margin: 10px 10px 5px 10px; */
+    /* justify-content: space-between; */
+    border-bottom: 1px solid rgba(135, 128, 128, 0.473);
+}
+
+.song:hover{
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 6px;
+}
+
+.icon i{
+    width: 100px;
+    /* height: 100px; */
+    /* color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon i:hover{
+    color: blue;
+}
+
+.icon{
+    margin-bottom: 1.5rem;
+}
+
+.item-music{
+    margin-left: auto;
+}
+
+.playing{
+    background-color: rgba(255, 255, 255, 0.408);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* .progress-bar, .volume-control{
+    justify-content: space-between;
+} */
+
+input.progress-bar{
+    margin-right: 2rem;
+}
+
+input.volume-control{
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+
+.current-time{
+    margin-right: 3.5rem;
+}
+
+i.fa-volume-high:hover{
+    color: blue;
+}
+
+/* Hiệu ứng phát sáng cho hình ảnh khi rê chuột */
+.introduction img {
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.introduction img:hover {
+    box-shadow: 0 0 15px 5px rgba(66, 70, 70, 0.8);
+    /* rgba(41, 187, 189, 0.8); */
+    /* rgba(255, 255, 255, 0.8); */
+}
+
+/* Hiệu ứng co dãn cho tiêu đề và nội dung khi rê chuột */
+.introduction h2, .introduction p {
+    transition: transform 0.5s ease-in-out;
+}
+
+.introduction h2:hover, .introduction p:hover {
+    transform: scale(1.1);
+}
